@@ -1,0 +1,21 @@
+{
+  "name": "sockets-test",
+  "version": "0.0.1",
+  "description": "socket.io demo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "author": "Luiz Gustavo Rocco",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^9.5.0",
+    "drizzle-orm": "^0.30.8",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.20.14"
+  }
+}
