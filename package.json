@@ -13,9 +13,11 @@
     "better-sqlite3": "^9.5.0",
     "drizzle-orm": "^0.30.8",
     "express": "^4.19.2",
+    "nanoid": "^5.0.7",
     "socket.io": "^4.7.5"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.20.14"
+    "drizzle-kit": "^0.20.14",
+    "prettier": "^3.2.5"
   }
 }
