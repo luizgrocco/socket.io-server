@@ -32,7 +32,7 @@ io.on("connection", (socket) => {
   console.log(`${socket.id} connected`);
 
   socket.on("create_room", ({ username, cubeState = [], queueState = [] }) => {
-    console.log("create_room received");
+    console.log("create_room received", username);
     // TODO: Validate all required fields to create a room
     if (!username) {
       socket.emit("create_room_error", { message: "Invalid username" });
